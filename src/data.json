@@ -1,0 +1,74 @@
+[
+{
+    "code": "AAA.AX",
+    "company": "AAA",
+    "Volume":1000000,
+    "price": 0.9292,
+    "values":  "a",
+    "change_value": 0,
+    "percent": 0
+  },
+  {
+    "code": "BBB.AX",
+    "company": "BBB",
+    "Volume":1000000,
+    "price": 1.0770,
+    "values": "a",
+    "change_value": 0,
+    "percent": 0
+  },
+  {
+    "code": "CCC.AX",
+    "company": "CCC",
+    "Volume":1000000,
+    "price": 1.6292,
+    "values": "a",
+    "change_value": 0,
+    "percent": 0
+  },
+  {
+    "code": "DDD.AX",
+    "company": "DDD",
+    "Volume":1000000,
+    "price": 1.4292,
+    "values": "a",
+    "change_value": 0,
+    "percent": 0
+  },
+  {
+    "code": "EEE.AX",
+    "company": "EEE",
+    "Volume":1000000,
+    "price": 0.9292,
+    "values": "a",
+    "change_value": 0,
+    "percent": 0
+  },
+  {
+    "code": "FFF.AX",
+    "company": "FFF",
+    "Volume":1000000,
+    "price": 0.8292,
+    "values": "a",
+    "change_value": 0,
+    "percent": 0
+  },
+  {
+    "code": "GGG.AX",
+    "company": "GGG",
+    "Volume":1000000,
+    "price": 117.7292,
+    "values": "a",
+    "change_value": 0,
+    "percent": 0
+  },
+  {
+    "code": "HHH.AX",
+    "company": "HHH",
+    "Volume":1000000,
+    "price": 60.7292,
+    "values":  "a",
+    "change_value": 0,
+    "percent": 0
+  }
+]
