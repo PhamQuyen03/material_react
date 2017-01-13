@@ -1,50 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import {Table, TableBody, TableHeader, TableHeaderColumn, TableRow, TableRowColumn} from 'material-ui/Table';
 import baseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 
 const data = require('./data.json');
-
-const styles= {
-  container: {
-    color: "black",
-    "font-weight": "bold",
-  },
-};
-const stylesHeader= {
-  container: {
-    color: "#bdbdbd",
-    "font-weight": "bold",
-  },
-};
-const stylesCode= {
-  container: {
-    color: "#2e84de",
-    "font-weight": "bold",
-  },
-};
-const stylesCopany= {
-  container: {
-    color: "#9E9E9E",
-    "font-weight": "bold",
-  },
-};
-const stylesNegative = {
-  container: {
-    color: "#ff3a65",
-    "font-weight": "bold",
-  },
-};
-const stylesPositive = {
-  container: {
-    color: "#3cdf87",
-    "font-weight": "bold",
-  },
-};
 var TopLoser = [];
+  
 function tick() {
-
   for (var i=0; i<data.length; i++) {
     var change_value = Math.floor(Math.random() * (50 - (-50) + 1) + (-50)) / 1000;
     data[i].percent = change_value;
@@ -56,10 +18,9 @@ function tick() {
     data[i].values = data[i].values.toFixed(2);
   }
   data.sort(function(a, b) {
-    return parseFloat(a.price) - parseFloat(b.price);
+      return parseFloat(a.price) - parseFloat(b.price);
 
-});
-
+  });
   for (var i=0; i<5; i++) {
     TopLoser[i] = data[i];
   }
@@ -67,6 +28,44 @@ function tick() {
 }
 
 setInterval(tick, 1000);
+
+const styles= {
+  container: {
+    color: "black",
+    "fontWeight": "bold",
+  },
+};
+const stylesHeader= {
+  container: {
+    color: "#bdbdbd",
+    "fontWeight": "bold",
+  },
+};
+const stylesCode= {
+  container: {
+    color: "#2e84de",
+    "fontWeight": "bold",
+  },
+};
+const stylesCopany= {
+  container: {
+    color: "#9E9E9E",
+    "fontWeight": "bold",
+  },
+};
+const stylesNegative = {
+  container: {
+    color: "#ff3a65",
+    "fontWeight": "bold",
+  },
+};
+const stylesPositive = {
+  container: {
+    color: "#3cdf87",
+    "fontWeight": "bold",
+  },
+};
+
 class Loser extends React.Component {
 
   getChildContext() {

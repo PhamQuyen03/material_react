@@ -1,12 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import {Table, TableBody, TableHeader, TableHeaderColumn, TableRow, TableRowColumn} from 'material-ui/Table';
 import baseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
+
 const data = require('./data.json');
 var TopGainers = [];
-function tick() {
 
+function tick() {
   for (var i=0; i<data.length; i++) {
     var change_value = Math.floor(Math.random() * (50 - (-50) + 1) + (-50)) / 1000;
     data[i].percent = change_value;
@@ -21,7 +21,6 @@ function tick() {
     return -parseFloat(a.price) + parseFloat(b.price);
 
 });
-
   for (var i=0; i<5; i++) {
     TopGainers[i] = data[i];
   }
@@ -32,37 +31,37 @@ setInterval(tick, 1000);
 const styles= {
   container: {
     color: "black",
-    "font-weight": "bold",
+    "fontWeight": "bold",
   },
 };
 const stylesHeader= {
   container: {
     color: "#bdbdbd",
-    "font-weight": "bold",
+    "fontWeight": "bold",
   },
 };
 const stylesCode= {
   container: {
     color: "#2e84de",
-    "font-weight": "bold",
+    "fontWeight": "bold",
   },
 };
 const stylesCopany= {
   container: {
     color: "#9E9E9E",
-    "font-weight": "bold",
+    "fontWeight": "bold",
   },
 };
 const stylesNegative = {
   container: {
     color: "#ff3a65",
-    "font-weight": "bold",
+    "fontWeight": "bold",
   },
 };
 const stylesPositive = {
   container: {
     color: "#3cdf87",
-    "font-weight": "bold",
+    "fontWeight": "bold",
   },
 };
 const muiTheme = getMuiTheme({
