@@ -17,8 +17,6 @@ const styles = {
   },
 };
 
-module.exports = sortArray;
-
 const muiTheme = getMuiTheme({
   palette: {
     textColor: "#ffffff",

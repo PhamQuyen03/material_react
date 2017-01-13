@@ -7,6 +7,10 @@ const data = require('./data.json');
 var TopGainers = [];
 
 function tick() {
+  data.sort(function(a, b) {
+    return -parseFloat(a.price) + parseFloat(b.price);
+
+  });
   for (var i=0; i<data.length; i++) {
     var change_value = Math.floor(Math.random() * (50 - (-50) + 1) + (-50)) / 1000;
     data[i].percent = change_value;
@@ -15,19 +19,16 @@ function tick() {
     data[i].price = parseFloat(data[i].change_value)+ parseFloat(data[i].price);
     data[i].price = data[i].price.toFixed(3);
     data[i].values = data[i].price * data[i].Volume;
-    data[i].values = data[i].values.toFixed(2);
+    data[i].values = parseInt(data[i].values);
   }
-  data.sort(function(a, b) {
-    return -parseFloat(a.price) + parseFloat(b.price);
 
-});
   for (var i=0; i<5; i++) {
     TopGainers[i] = data[i];
   }
 
 }
-
 setInterval(tick, 1000);
+
 const styles= {
   container: {
     color: "black",
@@ -84,8 +85,8 @@ class Gainers extends React.Component {
             <TableHeaderColumn style={ stylesHeader.container}>COMPANY</TableHeaderColumn>
             <TableHeaderColumn style={ stylesHeader.container}>PRICE</TableHeaderColumn>
             <TableHeaderColumn style={ stylesHeader.container}>VALUE</TableHeaderColumn>
-            <TableHeaderColumn style={ stylesHeader.container}>CHANGE_VALUE</TableHeaderColumn>
-            <TableHeaderColumn style={ stylesHeader.container}>PERCENT</TableHeaderColumn>
+            <TableHeaderColumn style={ stylesHeader.container}>CHANGE</TableHeaderColumn>
+            <TableHeaderColumn style={ stylesHeader.container}>%CHANGE</TableHeaderColumn>
           </TableRow>
         </TableHeader>
         <TableBody displayRowCheckbox={false}>
