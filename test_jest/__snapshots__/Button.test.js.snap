@@ -1,0 +1,44 @@
+exports[`test Link changes the class when hovered 1`] = `
+<button
+  className="btn btn-success"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}>
+  Search
+</button>
+`;
+
+exports[`test Link changes the class when hovered 2`] = `
+<button
+  className="btn btn-info"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}>
+  Search
+</button>
+`;
+
+exports[`test Link changes the class when hovered 3`] = `
+<button
+  className="btn btn-success"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}>
+  Search
+</button>
+`;
+
+exports[`test Link changes the class when hovered 4`] = `
+<button
+  className="btn btn-success"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}>
+  Search
+</button>
+`;
+
+exports[`test Link changes the class when hovered 5`] = `
+<button
+  className="btn btn-success"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}>
+  Search
+</button>
+`;

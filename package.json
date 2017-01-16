@@ -27,6 +27,11 @@
     "test": "jest",
     "eject": "react-scripts eject"
   },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/node_modules/webpack-babel-jest",
+    "testFileExtensions": ["es6", "js"],
+    "moduleFileExtensions": ["js", "json", "es6"]
+  },
   "babel": {
     "presets": [
       "es2015",

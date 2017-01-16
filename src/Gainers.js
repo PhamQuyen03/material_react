@@ -4,26 +4,15 @@ import baseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 
 const data = require('./data.json');
-var TopGainers = [];
+var tempTopGainers = [];
 
 function tick() {
   data.sort(function(a, b) {
     return -parseFloat(a.price) + parseFloat(b.price);
 
   });
-  for (var i=0; i<data.length; i++) {
-    var change_value = Math.floor(Math.random() * (50 - (-50) + 1) + (-50)) / 1000;
-    data[i].percent = change_value;
-    data[i].change_value = parseFloat(data[i].price)*data[i].percent;
-    data[i].change_value = data[i].change_value.toFixed(2);
-    data[i].price = parseFloat(data[i].change_value)+ parseFloat(data[i].price);
-    data[i].price = data[i].price.toFixed(3);
-    data[i].values = data[i].price * data[i].Volume;
-    data[i].values = parseInt(data[i].values);
-  }
-
   for (var i=0; i<5; i++) {
-    TopGainers[i] = data[i];
+    tempTopGainers[i] = data[i];
   }
 
 }
@@ -71,10 +60,15 @@ const muiTheme = getMuiTheme({
   },
 });
 class Gainers extends React.Component {
-
+  constructor(props) {
+      super(props);
+      this.state = {
+        TopGainers: tempTopGainers
+      };
+  }
   getChildContext() {
-                return { muiTheme: getMuiTheme(baseTheme) };
-            }
+    return { muiTheme: getMuiTheme(baseTheme) };
+  }
   render() {
     return (
 
@@ -90,7 +84,7 @@ class Gainers extends React.Component {
           </TableRow>
         </TableHeader>
         <TableBody displayRowCheckbox={false}>
-          {TopGainers.map(item => {if (item.percent > 0) {
+          {this.props.TopGainers.map(item => {if (item.percent > 0) {
             return (
                 <TableRow key={item.code}>
                     <TableRowColumn style={ stylesCode.container}>{item.code}</TableRowColumn>
@@ -121,6 +115,6 @@ class Gainers extends React.Component {
   }
 }
 Gainers.childContextTypes = {
-            muiTheme: React.PropTypes.object.isRequired,
+  muiTheme: React.PropTypes.object.isRequired,
 };
 export default Gainers;
