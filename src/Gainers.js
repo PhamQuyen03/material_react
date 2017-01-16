@@ -5,18 +5,13 @@ import getMuiTheme from 'material-ui/styles/getMuiTheme';
 
 const data = require('./data.json');
 var tempTopGainers = [];
+data.sort(function(a, b) {
+  return -parseFloat(a.price) + parseFloat(b.price);
 
-function tick() {
-  data.sort(function(a, b) {
-    return -parseFloat(a.price) + parseFloat(b.price);
-
-  });
-  for (var i=0; i<5; i++) {
-    tempTopGainers[i] = data[i];
-  }
-
+});
+for (var i=0; i<5; i++) {
+  tempTopGainers[i] = data[i];
 }
-setInterval(tick, 1000);
 
 const styles= {
   container: {
@@ -61,10 +56,10 @@ const muiTheme = getMuiTheme({
 });
 class Gainers extends React.Component {
   constructor(props) {
-      super(props);
-      this.state = {
-        TopGainers: tempTopGainers
-      };
+    super(props);
+    this.state = {
+      TopGainers: tempTopGainers
+    };
   }
   getChildContext() {
     return { muiTheme: getMuiTheme(baseTheme) };
@@ -83,36 +78,36 @@ class Gainers extends React.Component {
             <TableHeaderColumn style={ stylesHeader.container}>%CHANGE</TableHeaderColumn>
           </TableRow>
         </TableHeader>
-        <TableBody displayRowCheckbox={false}>
-          {this.props.TopGainers.map(item => {if (item.percent > 0) {
-            return (
+          <TableBody displayRowCheckbox={false}>
+            {this.props.TopGainers.map(item => {if (item.percent > 0) {
+              return (
                 <TableRow key={item.code}>
-                    <TableRowColumn style={ stylesCode.container}>{item.code}</TableRowColumn>
-                    <TableRowColumn style={ stylesCopany.container}>{item.company}</TableRowColumn>
-                    <TableRowColumn style={ styles.container}>{item.price}</TableRowColumn>
-                    <TableRowColumn style={ styles.container}>{item.values}</TableRowColumn>
-                    <TableRowColumn style={ stylesPositive.container}>{item.change_value}</TableRowColumn>
-                    <TableRowColumn style={ stylesPositive.container}>{item.percent}</TableRowColumn>
+                  <TableRowColumn style={ stylesCode.container}>{item.code}</TableRowColumn>
+                  <TableRowColumn style={ stylesCopany.container}>{item.company}</TableRowColumn>
+                  <TableRowColumn style={ styles.container}>{item.price}</TableRowColumn>
+                  <TableRowColumn style={ styles.container}>{item.values}</TableRowColumn>
+                  <TableRowColumn style={ stylesPositive.container}>{item.change_value}</TableRowColumn>
+                  <TableRowColumn style={ stylesPositive.container}>{item.percent}</TableRowColumn>
                 </TableRow>
-            );
-          } else{
-            return (
+                );
+            } else{
+              return (
                 <TableRow key={item.code}>
-                    <TableRowColumn style={ stylesCode.container}>{item.code}</TableRowColumn>
-                    <TableRowColumn style={ stylesCopany.container}>{item.company}</TableRowColumn>
-                    <TableRowColumn style={ styles.container}>{item.price}</TableRowColumn>
-                    <TableRowColumn style={ styles.container}>{item.values}</TableRowColumn>
-                    <TableRowColumn style={ stylesNegative.container}>{item.change_value}</TableRowColumn>
-                    <TableRowColumn style={ stylesNegative.container}>{item.percent}</TableRowColumn>
+                  <TableRowColumn style={ stylesCode.container}>{item.code}</TableRowColumn>
+                  <TableRowColumn style={ stylesCopany.container}>{item.company}</TableRowColumn>
+                  <TableRowColumn style={ styles.container}>{item.price}</TableRowColumn>
+                  <TableRowColumn style={ styles.container}>{item.values}</TableRowColumn>
+                  <TableRowColumn style={ stylesNegative.container}>{item.change_value}</TableRowColumn>
+                  <TableRowColumn style={ stylesNegative.container}>{item.percent}</TableRowColumn>
                 </TableRow>
-            );
-          };
-              
+                );
+            };
+
           })}
         </TableBody>
       </Table>
-    );
-  }
+);
+}
 }
 Gainers.childContextTypes = {
   muiTheme: React.PropTypes.object.isRequired,

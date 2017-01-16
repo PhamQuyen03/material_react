@@ -276,304 +276,6 @@ exports[`test test show table 1`] = `
                     "whiteSpace": "nowrap",
                   }
                 }>
-                AAA.AX
-              </td>
-              <td
-                className={undefined}
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
-                style={
-                  Object {
-                    "backgroundColor": "inherit",
-                    "color": "#9E9E9E",
-                    "fontSize": 13,
-                    "fontWeight": "bold",
-                    "height": 48,
-                    "muiPrepared": true,
-                    "overflow": "hidden",
-                    "paddingLeft": 24,
-                    "paddingRight": 24,
-                    "textAlign": "left",
-                    "textOverflow": "ellipsis",
-                    "whiteSpace": "nowrap",
-                  }
-                }>
-                AAA
-              </td>
-              <td
-                className={undefined}
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
-                style={
-                  Object {
-                    "backgroundColor": "inherit",
-                    "color": "black",
-                    "fontSize": 13,
-                    "fontWeight": "bold",
-                    "height": 48,
-                    "muiPrepared": true,
-                    "overflow": "hidden",
-                    "paddingLeft": 24,
-                    "paddingRight": 24,
-                    "textAlign": "left",
-                    "textOverflow": "ellipsis",
-                    "whiteSpace": "nowrap",
-                  }
-                }>
-                0.9292
-              </td>
-              <td
-                className={undefined}
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
-                style={
-                  Object {
-                    "backgroundColor": "inherit",
-                    "color": "black",
-                    "fontSize": 13,
-                    "fontWeight": "bold",
-                    "height": 48,
-                    "muiPrepared": true,
-                    "overflow": "hidden",
-                    "paddingLeft": 24,
-                    "paddingRight": 24,
-                    "textAlign": "left",
-                    "textOverflow": "ellipsis",
-                    "whiteSpace": "nowrap",
-                  }
-                }>
-                929200
-              </td>
-              <td
-                className={undefined}
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
-                style={
-                  Object {
-                    "backgroundColor": "inherit",
-                    "color": "#ff3a65",
-                    "fontSize": 13,
-                    "fontWeight": "bold",
-                    "height": 48,
-                    "muiPrepared": true,
-                    "overflow": "hidden",
-                    "paddingLeft": 24,
-                    "paddingRight": 24,
-                    "textAlign": "left",
-                    "textOverflow": "ellipsis",
-                    "whiteSpace": "nowrap",
-                  }
-                }>
-                0
-              </td>
-              <td
-                className={undefined}
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
-                style={
-                  Object {
-                    "backgroundColor": "inherit",
-                    "color": "#ff3a65",
-                    "fontSize": 13,
-                    "fontWeight": "bold",
-                    "height": 48,
-                    "muiPrepared": true,
-                    "overflow": "hidden",
-                    "paddingLeft": 24,
-                    "paddingRight": 24,
-                    "textAlign": "left",
-                    "textOverflow": "ellipsis",
-                    "whiteSpace": "nowrap",
-                  }
-                }>
-                0
-              </td>
-            </tr>
-            <tr
-              className={undefined}
-              style={
-                Object {
-                  "borderBottom": "1px solid #e0e0e0",
-                  "color": "rgba(0, 0, 0, 0.87)",
-                  "height": 48,
-                  "muiPrepared": true,
-                }
-              }>
-              <td
-                className={undefined}
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
-                style={
-                  Object {
-                    "backgroundColor": "inherit",
-                    "color": "#2e84de",
-                    "fontSize": 13,
-                    "fontWeight": "bold",
-                    "height": 48,
-                    "muiPrepared": true,
-                    "overflow": "hidden",
-                    "paddingLeft": 24,
-                    "paddingRight": 24,
-                    "textAlign": "left",
-                    "textOverflow": "ellipsis",
-                    "whiteSpace": "nowrap",
-                  }
-                }>
-                BBB.AX
-              </td>
-              <td
-                className={undefined}
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
-                style={
-                  Object {
-                    "backgroundColor": "inherit",
-                    "color": "#9E9E9E",
-                    "fontSize": 13,
-                    "fontWeight": "bold",
-                    "height": 48,
-                    "muiPrepared": true,
-                    "overflow": "hidden",
-                    "paddingLeft": 24,
-                    "paddingRight": 24,
-                    "textAlign": "left",
-                    "textOverflow": "ellipsis",
-                    "whiteSpace": "nowrap",
-                  }
-                }>
-                BBB
-              </td>
-              <td
-                className={undefined}
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
-                style={
-                  Object {
-                    "backgroundColor": "inherit",
-                    "color": "black",
-                    "fontSize": 13,
-                    "fontWeight": "bold",
-                    "height": 48,
-                    "muiPrepared": true,
-                    "overflow": "hidden",
-                    "paddingLeft": 24,
-                    "paddingRight": 24,
-                    "textAlign": "left",
-                    "textOverflow": "ellipsis",
-                    "whiteSpace": "nowrap",
-                  }
-                }>
-                1.077
-              </td>
-              <td
-                className={undefined}
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
-                style={
-                  Object {
-                    "backgroundColor": "inherit",
-                    "color": "black",
-                    "fontSize": 13,
-                    "fontWeight": "bold",
-                    "height": 48,
-                    "muiPrepared": true,
-                    "overflow": "hidden",
-                    "paddingLeft": 24,
-                    "paddingRight": 24,
-                    "textAlign": "left",
-                    "textOverflow": "ellipsis",
-                    "whiteSpace": "nowrap",
-                  }
-                }>
-                1077000
-              </td>
-              <td
-                className={undefined}
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
-                style={
-                  Object {
-                    "backgroundColor": "inherit",
-                    "color": "#ff3a65",
-                    "fontSize": 13,
-                    "fontWeight": "bold",
-                    "height": 48,
-                    "muiPrepared": true,
-                    "overflow": "hidden",
-                    "paddingLeft": 24,
-                    "paddingRight": 24,
-                    "textAlign": "left",
-                    "textOverflow": "ellipsis",
-                    "whiteSpace": "nowrap",
-                  }
-                }>
-                0
-              </td>
-              <td
-                className={undefined}
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
-                style={
-                  Object {
-                    "backgroundColor": "inherit",
-                    "color": "#ff3a65",
-                    "fontSize": 13,
-                    "fontWeight": "bold",
-                    "height": 48,
-                    "muiPrepared": true,
-                    "overflow": "hidden",
-                    "paddingLeft": 24,
-                    "paddingRight": 24,
-                    "textAlign": "left",
-                    "textOverflow": "ellipsis",
-                    "whiteSpace": "nowrap",
-                  }
-                }>
-                0
-              </td>
-            </tr>
-            <tr
-              className={undefined}
-              style={
-                Object {
-                  "borderBottom": "1px solid #e0e0e0",
-                  "color": "rgba(0, 0, 0, 0.87)",
-                  "height": 48,
-                  "muiPrepared": true,
-                }
-              }>
-              <td
-                className={undefined}
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
-                style={
-                  Object {
-                    "backgroundColor": "inherit",
-                    "color": "#2e84de",
-                    "fontSize": 13,
-                    "fontWeight": "bold",
-                    "height": 48,
-                    "muiPrepared": true,
-                    "overflow": "hidden",
-                    "paddingLeft": 24,
-                    "paddingRight": 24,
-                    "textAlign": "left",
-                    "textOverflow": "ellipsis",
-                    "whiteSpace": "nowrap",
-                  }
-                }>
                 CCC.AX
               </td>
               <td
@@ -872,7 +574,7 @@ exports[`test test show table 1`] = `
                     "whiteSpace": "nowrap",
                   }
                 }>
-                EEE.AX
+                BBB.AX
               </td>
               <td
                 className={undefined}
@@ -895,7 +597,7 @@ exports[`test test show table 1`] = `
                     "whiteSpace": "nowrap",
                   }
                 }>
-                EEE
+                BBB
               </td>
               <td
                 className={undefined}
@@ -918,7 +620,7 @@ exports[`test test show table 1`] = `
                     "whiteSpace": "nowrap",
                   }
                 }>
-                0.7241
+                1.077
               </td>
               <td
                 className={undefined}
@@ -941,7 +643,156 @@ exports[`test test show table 1`] = `
                     "whiteSpace": "nowrap",
                   }
                 }>
-                724100
+                1077000
+              </td>
+              <td
+                className={undefined}
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "inherit",
+                    "color": "#ff3a65",
+                    "fontSize": 13,
+                    "fontWeight": "bold",
+                    "height": 48,
+                    "muiPrepared": true,
+                    "overflow": "hidden",
+                    "paddingLeft": 24,
+                    "paddingRight": 24,
+                    "textAlign": "left",
+                    "textOverflow": "ellipsis",
+                    "whiteSpace": "nowrap",
+                  }
+                }>
+                0
+              </td>
+              <td
+                className={undefined}
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "inherit",
+                    "color": "#ff3a65",
+                    "fontSize": 13,
+                    "fontWeight": "bold",
+                    "height": 48,
+                    "muiPrepared": true,
+                    "overflow": "hidden",
+                    "paddingLeft": 24,
+                    "paddingRight": 24,
+                    "textAlign": "left",
+                    "textOverflow": "ellipsis",
+                    "whiteSpace": "nowrap",
+                  }
+                }>
+                0
+              </td>
+            </tr>
+            <tr
+              className={undefined}
+              style={
+                Object {
+                  "borderBottom": "1px solid #e0e0e0",
+                  "color": "rgba(0, 0, 0, 0.87)",
+                  "height": 48,
+                  "muiPrepared": true,
+                }
+              }>
+              <td
+                className={undefined}
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "inherit",
+                    "color": "#2e84de",
+                    "fontSize": 13,
+                    "fontWeight": "bold",
+                    "height": 48,
+                    "muiPrepared": true,
+                    "overflow": "hidden",
+                    "paddingLeft": 24,
+                    "paddingRight": 24,
+                    "textAlign": "left",
+                    "textOverflow": "ellipsis",
+                    "whiteSpace": "nowrap",
+                  }
+                }>
+                AAA.AX
+              </td>
+              <td
+                className={undefined}
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "inherit",
+                    "color": "#9E9E9E",
+                    "fontSize": 13,
+                    "fontWeight": "bold",
+                    "height": 48,
+                    "muiPrepared": true,
+                    "overflow": "hidden",
+                    "paddingLeft": 24,
+                    "paddingRight": 24,
+                    "textAlign": "left",
+                    "textOverflow": "ellipsis",
+                    "whiteSpace": "nowrap",
+                  }
+                }>
+                AAA
+              </td>
+              <td
+                className={undefined}
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "inherit",
+                    "color": "black",
+                    "fontSize": 13,
+                    "fontWeight": "bold",
+                    "height": 48,
+                    "muiPrepared": true,
+                    "overflow": "hidden",
+                    "paddingLeft": 24,
+                    "paddingRight": 24,
+                    "textAlign": "left",
+                    "textOverflow": "ellipsis",
+                    "whiteSpace": "nowrap",
+                  }
+                }>
+                0.9292
+              </td>
+              <td
+                className={undefined}
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "inherit",
+                    "color": "black",
+                    "fontSize": 13,
+                    "fontWeight": "bold",
+                    "height": 48,
+                    "muiPrepared": true,
+                    "overflow": "hidden",
+                    "paddingLeft": 24,
+                    "paddingRight": 24,
+                    "textAlign": "left",
+                    "textOverflow": "ellipsis",
+                    "whiteSpace": "nowrap",
+                  }
+                }>
+                929200
               </td>
               <td
                 className={undefined}
@@ -1240,6 +1091,155 @@ exports[`test test show table 1`] = `
                   }
                 }>
                 729200
+              </td>
+              <td
+                className={undefined}
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "inherit",
+                    "color": "#ff3a65",
+                    "fontSize": 13,
+                    "fontWeight": "bold",
+                    "height": 48,
+                    "muiPrepared": true,
+                    "overflow": "hidden",
+                    "paddingLeft": 24,
+                    "paddingRight": 24,
+                    "textAlign": "left",
+                    "textOverflow": "ellipsis",
+                    "whiteSpace": "nowrap",
+                  }
+                }>
+                0
+              </td>
+              <td
+                className={undefined}
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "inherit",
+                    "color": "#ff3a65",
+                    "fontSize": 13,
+                    "fontWeight": "bold",
+                    "height": 48,
+                    "muiPrepared": true,
+                    "overflow": "hidden",
+                    "paddingLeft": 24,
+                    "paddingRight": 24,
+                    "textAlign": "left",
+                    "textOverflow": "ellipsis",
+                    "whiteSpace": "nowrap",
+                  }
+                }>
+                0
+              </td>
+            </tr>
+            <tr
+              className={undefined}
+              style={
+                Object {
+                  "borderBottom": "1px solid #e0e0e0",
+                  "color": "rgba(0, 0, 0, 0.87)",
+                  "height": 48,
+                  "muiPrepared": true,
+                }
+              }>
+              <td
+                className={undefined}
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "inherit",
+                    "color": "#2e84de",
+                    "fontSize": 13,
+                    "fontWeight": "bold",
+                    "height": 48,
+                    "muiPrepared": true,
+                    "overflow": "hidden",
+                    "paddingLeft": 24,
+                    "paddingRight": 24,
+                    "textAlign": "left",
+                    "textOverflow": "ellipsis",
+                    "whiteSpace": "nowrap",
+                  }
+                }>
+                EEE.AX
+              </td>
+              <td
+                className={undefined}
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "inherit",
+                    "color": "#9E9E9E",
+                    "fontSize": 13,
+                    "fontWeight": "bold",
+                    "height": 48,
+                    "muiPrepared": true,
+                    "overflow": "hidden",
+                    "paddingLeft": 24,
+                    "paddingRight": 24,
+                    "textAlign": "left",
+                    "textOverflow": "ellipsis",
+                    "whiteSpace": "nowrap",
+                  }
+                }>
+                EEE
+              </td>
+              <td
+                className={undefined}
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "inherit",
+                    "color": "black",
+                    "fontSize": 13,
+                    "fontWeight": "bold",
+                    "height": 48,
+                    "muiPrepared": true,
+                    "overflow": "hidden",
+                    "paddingLeft": 24,
+                    "paddingRight": 24,
+                    "textAlign": "left",
+                    "textOverflow": "ellipsis",
+                    "whiteSpace": "nowrap",
+                  }
+                }>
+                0.7241
+              </td>
+              <td
+                className={undefined}
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "inherit",
+                    "color": "black",
+                    "fontSize": 13,
+                    "fontWeight": "bold",
+                    "height": 48,
+                    "muiPrepared": true,
+                    "overflow": "hidden",
+                    "paddingLeft": 24,
+                    "paddingRight": 24,
+                    "textAlign": "left",
+                    "textOverflow": "ellipsis",
+                    "whiteSpace": "nowrap",
+                  }
+                }>
+                724100
               </td>
               <td
                 className={undefined}
@@ -1692,304 +1692,6 @@ exports[`test test show table 1`] = `
                     "whiteSpace": "nowrap",
                   }
                 }>
-                AAA.AX
-              </td>
-              <td
-                className={undefined}
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
-                style={
-                  Object {
-                    "backgroundColor": "inherit",
-                    "color": "#9E9E9E",
-                    "fontSize": 13,
-                    "fontWeight": "bold",
-                    "height": 48,
-                    "muiPrepared": true,
-                    "overflow": "hidden",
-                    "paddingLeft": 24,
-                    "paddingRight": 24,
-                    "textAlign": "left",
-                    "textOverflow": "ellipsis",
-                    "whiteSpace": "nowrap",
-                  }
-                }>
-                AAA
-              </td>
-              <td
-                className={undefined}
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
-                style={
-                  Object {
-                    "backgroundColor": "inherit",
-                    "color": "black",
-                    "fontSize": 13,
-                    "fontWeight": "bold",
-                    "height": 48,
-                    "muiPrepared": true,
-                    "overflow": "hidden",
-                    "paddingLeft": 24,
-                    "paddingRight": 24,
-                    "textAlign": "left",
-                    "textOverflow": "ellipsis",
-                    "whiteSpace": "nowrap",
-                  }
-                }>
-                0.9292
-              </td>
-              <td
-                className={undefined}
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
-                style={
-                  Object {
-                    "backgroundColor": "inherit",
-                    "color": "black",
-                    "fontSize": 13,
-                    "fontWeight": "bold",
-                    "height": 48,
-                    "muiPrepared": true,
-                    "overflow": "hidden",
-                    "paddingLeft": 24,
-                    "paddingRight": 24,
-                    "textAlign": "left",
-                    "textOverflow": "ellipsis",
-                    "whiteSpace": "nowrap",
-                  }
-                }>
-                929200
-              </td>
-              <td
-                className={undefined}
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
-                style={
-                  Object {
-                    "backgroundColor": "inherit",
-                    "color": "#ff3a65",
-                    "fontSize": 13,
-                    "fontWeight": "bold",
-                    "height": 48,
-                    "muiPrepared": true,
-                    "overflow": "hidden",
-                    "paddingLeft": 24,
-                    "paddingRight": 24,
-                    "textAlign": "left",
-                    "textOverflow": "ellipsis",
-                    "whiteSpace": "nowrap",
-                  }
-                }>
-                0
-              </td>
-              <td
-                className={undefined}
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
-                style={
-                  Object {
-                    "backgroundColor": "inherit",
-                    "color": "#ff3a65",
-                    "fontSize": 13,
-                    "fontWeight": "bold",
-                    "height": 48,
-                    "muiPrepared": true,
-                    "overflow": "hidden",
-                    "paddingLeft": 24,
-                    "paddingRight": 24,
-                    "textAlign": "left",
-                    "textOverflow": "ellipsis",
-                    "whiteSpace": "nowrap",
-                  }
-                }>
-                0
-              </td>
-            </tr>
-            <tr
-              className={undefined}
-              style={
-                Object {
-                  "borderBottom": "1px solid #e0e0e0",
-                  "color": "rgba(0, 0, 0, 0.87)",
-                  "height": 48,
-                  "muiPrepared": true,
-                }
-              }>
-              <td
-                className={undefined}
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
-                style={
-                  Object {
-                    "backgroundColor": "inherit",
-                    "color": "#2e84de",
-                    "fontSize": 13,
-                    "fontWeight": "bold",
-                    "height": 48,
-                    "muiPrepared": true,
-                    "overflow": "hidden",
-                    "paddingLeft": 24,
-                    "paddingRight": 24,
-                    "textAlign": "left",
-                    "textOverflow": "ellipsis",
-                    "whiteSpace": "nowrap",
-                  }
-                }>
-                BBB.AX
-              </td>
-              <td
-                className={undefined}
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
-                style={
-                  Object {
-                    "backgroundColor": "inherit",
-                    "color": "#9E9E9E",
-                    "fontSize": 13,
-                    "fontWeight": "bold",
-                    "height": 48,
-                    "muiPrepared": true,
-                    "overflow": "hidden",
-                    "paddingLeft": 24,
-                    "paddingRight": 24,
-                    "textAlign": "left",
-                    "textOverflow": "ellipsis",
-                    "whiteSpace": "nowrap",
-                  }
-                }>
-                BBB
-              </td>
-              <td
-                className={undefined}
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
-                style={
-                  Object {
-                    "backgroundColor": "inherit",
-                    "color": "black",
-                    "fontSize": 13,
-                    "fontWeight": "bold",
-                    "height": 48,
-                    "muiPrepared": true,
-                    "overflow": "hidden",
-                    "paddingLeft": 24,
-                    "paddingRight": 24,
-                    "textAlign": "left",
-                    "textOverflow": "ellipsis",
-                    "whiteSpace": "nowrap",
-                  }
-                }>
-                1.077
-              </td>
-              <td
-                className={undefined}
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
-                style={
-                  Object {
-                    "backgroundColor": "inherit",
-                    "color": "black",
-                    "fontSize": 13,
-                    "fontWeight": "bold",
-                    "height": 48,
-                    "muiPrepared": true,
-                    "overflow": "hidden",
-                    "paddingLeft": 24,
-                    "paddingRight": 24,
-                    "textAlign": "left",
-                    "textOverflow": "ellipsis",
-                    "whiteSpace": "nowrap",
-                  }
-                }>
-                1077000
-              </td>
-              <td
-                className={undefined}
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
-                style={
-                  Object {
-                    "backgroundColor": "inherit",
-                    "color": "#ff3a65",
-                    "fontSize": 13,
-                    "fontWeight": "bold",
-                    "height": 48,
-                    "muiPrepared": true,
-                    "overflow": "hidden",
-                    "paddingLeft": 24,
-                    "paddingRight": 24,
-                    "textAlign": "left",
-                    "textOverflow": "ellipsis",
-                    "whiteSpace": "nowrap",
-                  }
-                }>
-                0
-              </td>
-              <td
-                className={undefined}
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
-                style={
-                  Object {
-                    "backgroundColor": "inherit",
-                    "color": "#ff3a65",
-                    "fontSize": 13,
-                    "fontWeight": "bold",
-                    "height": 48,
-                    "muiPrepared": true,
-                    "overflow": "hidden",
-                    "paddingLeft": 24,
-                    "paddingRight": 24,
-                    "textAlign": "left",
-                    "textOverflow": "ellipsis",
-                    "whiteSpace": "nowrap",
-                  }
-                }>
-                0
-              </td>
-            </tr>
-            <tr
-              className={undefined}
-              style={
-                Object {
-                  "borderBottom": "1px solid #e0e0e0",
-                  "color": "rgba(0, 0, 0, 0.87)",
-                  "height": 48,
-                  "muiPrepared": true,
-                }
-              }>
-              <td
-                className={undefined}
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
-                style={
-                  Object {
-                    "backgroundColor": "inherit",
-                    "color": "#2e84de",
-                    "fontSize": 13,
-                    "fontWeight": "bold",
-                    "height": 48,
-                    "muiPrepared": true,
-                    "overflow": "hidden",
-                    "paddingLeft": 24,
-                    "paddingRight": 24,
-                    "textAlign": "left",
-                    "textOverflow": "ellipsis",
-                    "whiteSpace": "nowrap",
-                  }
-                }>
                 CCC.AX
               </td>
               <td
@@ -2288,7 +1990,7 @@ exports[`test test show table 1`] = `
                     "whiteSpace": "nowrap",
                   }
                 }>
-                EEE.AX
+                BBB.AX
               </td>
               <td
                 className={undefined}
@@ -2311,7 +2013,7 @@ exports[`test test show table 1`] = `
                     "whiteSpace": "nowrap",
                   }
                 }>
-                EEE
+                BBB
               </td>
               <td
                 className={undefined}
@@ -2334,7 +2036,7 @@ exports[`test test show table 1`] = `
                     "whiteSpace": "nowrap",
                   }
                 }>
-                0.7241
+                1.077
               </td>
               <td
                 className={undefined}
@@ -2357,7 +2059,156 @@ exports[`test test show table 1`] = `
                     "whiteSpace": "nowrap",
                   }
                 }>
-                724100
+                1077000
+              </td>
+              <td
+                className={undefined}
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "inherit",
+                    "color": "#ff3a65",
+                    "fontSize": 13,
+                    "fontWeight": "bold",
+                    "height": 48,
+                    "muiPrepared": true,
+                    "overflow": "hidden",
+                    "paddingLeft": 24,
+                    "paddingRight": 24,
+                    "textAlign": "left",
+                    "textOverflow": "ellipsis",
+                    "whiteSpace": "nowrap",
+                  }
+                }>
+                0
+              </td>
+              <td
+                className={undefined}
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "inherit",
+                    "color": "#ff3a65",
+                    "fontSize": 13,
+                    "fontWeight": "bold",
+                    "height": 48,
+                    "muiPrepared": true,
+                    "overflow": "hidden",
+                    "paddingLeft": 24,
+                    "paddingRight": 24,
+                    "textAlign": "left",
+                    "textOverflow": "ellipsis",
+                    "whiteSpace": "nowrap",
+                  }
+                }>
+                0
+              </td>
+            </tr>
+            <tr
+              className={undefined}
+              style={
+                Object {
+                  "borderBottom": "1px solid #e0e0e0",
+                  "color": "rgba(0, 0, 0, 0.87)",
+                  "height": 48,
+                  "muiPrepared": true,
+                }
+              }>
+              <td
+                className={undefined}
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "inherit",
+                    "color": "#2e84de",
+                    "fontSize": 13,
+                    "fontWeight": "bold",
+                    "height": 48,
+                    "muiPrepared": true,
+                    "overflow": "hidden",
+                    "paddingLeft": 24,
+                    "paddingRight": 24,
+                    "textAlign": "left",
+                    "textOverflow": "ellipsis",
+                    "whiteSpace": "nowrap",
+                  }
+                }>
+                AAA.AX
+              </td>
+              <td
+                className={undefined}
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "inherit",
+                    "color": "#9E9E9E",
+                    "fontSize": 13,
+                    "fontWeight": "bold",
+                    "height": 48,
+                    "muiPrepared": true,
+                    "overflow": "hidden",
+                    "paddingLeft": 24,
+                    "paddingRight": 24,
+                    "textAlign": "left",
+                    "textOverflow": "ellipsis",
+                    "whiteSpace": "nowrap",
+                  }
+                }>
+                AAA
+              </td>
+              <td
+                className={undefined}
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "inherit",
+                    "color": "black",
+                    "fontSize": 13,
+                    "fontWeight": "bold",
+                    "height": 48,
+                    "muiPrepared": true,
+                    "overflow": "hidden",
+                    "paddingLeft": 24,
+                    "paddingRight": 24,
+                    "textAlign": "left",
+                    "textOverflow": "ellipsis",
+                    "whiteSpace": "nowrap",
+                  }
+                }>
+                0.9292
+              </td>
+              <td
+                className={undefined}
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "inherit",
+                    "color": "black",
+                    "fontSize": 13,
+                    "fontWeight": "bold",
+                    "height": 48,
+                    "muiPrepared": true,
+                    "overflow": "hidden",
+                    "paddingLeft": 24,
+                    "paddingRight": 24,
+                    "textAlign": "left",
+                    "textOverflow": "ellipsis",
+                    "whiteSpace": "nowrap",
+                  }
+                }>
+                929200
               </td>
               <td
                 className={undefined}
@@ -2656,6 +2507,155 @@ exports[`test test show table 1`] = `
                   }
                 }>
                 729200
+              </td>
+              <td
+                className={undefined}
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "inherit",
+                    "color": "#ff3a65",
+                    "fontSize": 13,
+                    "fontWeight": "bold",
+                    "height": 48,
+                    "muiPrepared": true,
+                    "overflow": "hidden",
+                    "paddingLeft": 24,
+                    "paddingRight": 24,
+                    "textAlign": "left",
+                    "textOverflow": "ellipsis",
+                    "whiteSpace": "nowrap",
+                  }
+                }>
+                0
+              </td>
+              <td
+                className={undefined}
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "inherit",
+                    "color": "#ff3a65",
+                    "fontSize": 13,
+                    "fontWeight": "bold",
+                    "height": 48,
+                    "muiPrepared": true,
+                    "overflow": "hidden",
+                    "paddingLeft": 24,
+                    "paddingRight": 24,
+                    "textAlign": "left",
+                    "textOverflow": "ellipsis",
+                    "whiteSpace": "nowrap",
+                  }
+                }>
+                0
+              </td>
+            </tr>
+            <tr
+              className={undefined}
+              style={
+                Object {
+                  "borderBottom": "1px solid #e0e0e0",
+                  "color": "rgba(0, 0, 0, 0.87)",
+                  "height": 48,
+                  "muiPrepared": true,
+                }
+              }>
+              <td
+                className={undefined}
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "inherit",
+                    "color": "#2e84de",
+                    "fontSize": 13,
+                    "fontWeight": "bold",
+                    "height": 48,
+                    "muiPrepared": true,
+                    "overflow": "hidden",
+                    "paddingLeft": 24,
+                    "paddingRight": 24,
+                    "textAlign": "left",
+                    "textOverflow": "ellipsis",
+                    "whiteSpace": "nowrap",
+                  }
+                }>
+                EEE.AX
+              </td>
+              <td
+                className={undefined}
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "inherit",
+                    "color": "#9E9E9E",
+                    "fontSize": 13,
+                    "fontWeight": "bold",
+                    "height": 48,
+                    "muiPrepared": true,
+                    "overflow": "hidden",
+                    "paddingLeft": 24,
+                    "paddingRight": 24,
+                    "textAlign": "left",
+                    "textOverflow": "ellipsis",
+                    "whiteSpace": "nowrap",
+                  }
+                }>
+                EEE
+              </td>
+              <td
+                className={undefined}
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "inherit",
+                    "color": "black",
+                    "fontSize": 13,
+                    "fontWeight": "bold",
+                    "height": 48,
+                    "muiPrepared": true,
+                    "overflow": "hidden",
+                    "paddingLeft": 24,
+                    "paddingRight": 24,
+                    "textAlign": "left",
+                    "textOverflow": "ellipsis",
+                    "whiteSpace": "nowrap",
+                  }
+                }>
+                0.7241
+              </td>
+              <td
+                className={undefined}
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "inherit",
+                    "color": "black",
+                    "fontSize": 13,
+                    "fontWeight": "bold",
+                    "height": 48,
+                    "muiPrepared": true,
+                    "overflow": "hidden",
+                    "paddingLeft": 24,
+                    "paddingRight": 24,
+                    "textAlign": "left",
+                    "textOverflow": "ellipsis",
+                    "whiteSpace": "nowrap",
+                  }
+                }>
+                724100
               </td>
               <td
                 className={undefined}
