@@ -7,24 +7,24 @@ import Gainers  from './Gainers';
 import baseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 
-const data = require('./data.json');
-var tempTopLoser = [];
-var tempTopGainers = [];
+// const data = require('./data.json');
+// var tempTopLoser = [];
+// var tempTopGainers = [];
 
-data.sort(function(a, b) {
-  return parseInt(a.values) - parseInt(b.values);
+// data.sort(function(a, b) {
+//   return parseInt(a.values) - parseInt(b.values);
 
-});
-for (var i=0; i<5; i++) {
-  tempTopLoser[i] = data[i];
-}
-data.sort(function(a, b) {
-  return -parseFloat(a.price) + parseFloat(b.price);
+// });
+// for (var i=0; i<5; i++) {
+//   tempTopLoser[i] = data[i];
+// }
+// data.sort(function(a, b) {
+//   return -parseFloat(a.price) + parseFloat(b.price);
 
-});
-for (var i=0; i<5; i++) {
-  tempTopGainers[i] = data[i];
-}
+// });
+// for (var i=0; i<5; i++) {
+//   tempTopGainers[i] = data[i];
+// }
 
 const styles = {
   container: {
@@ -44,8 +44,8 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      arrayTopLoser: tempTopLoser,
-      arrayTopGainer : tempTopGainers
+      // arrayTopLoser: tempTopLoser,
+      // arrayTopGainer : tempTopGainers
     };
   }
   	getChildContext() {

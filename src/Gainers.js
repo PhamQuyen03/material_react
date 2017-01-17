@@ -3,15 +3,15 @@ import {Table, TableBody, TableHeader, TableHeaderColumn, TableRow, TableRowColu
 import baseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 
-const data = require('./data.json');
-var tempTopGainers = [];
-data.sort(function(a, b) {
-  return -parseFloat(a.price) + parseFloat(b.price);
+// const data = require('./data.json');
+// var tempTopGainers = [];
+// data.sort(function(a, b) {
+//   return -parseFloat(a.price) + parseFloat(b.price);
 
-});
-for (var i=0; i<5; i++) {
-  tempTopGainers[i] = data[i];
-}
+// });
+// for (var i=0; i<5; i++) {
+//   tempTopGainers[i] = data[i];
+// }
 
 const styles= {
   container: {
@@ -58,7 +58,7 @@ class Gainers extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      TopGainers: tempTopGainers
+      // TopGainers: tempTopGainers
     };
   }
   getChildContext() {
