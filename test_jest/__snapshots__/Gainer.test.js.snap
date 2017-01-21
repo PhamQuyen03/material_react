@@ -363,6 +363,7 @@ exports[`test test show table 1`] = `
               }
             }>
             0
+            %
           </td>
         </tr>
         <tr
@@ -512,6 +513,7 @@ exports[`test test show table 1`] = `
               }
             }>
             0
+            %
           </td>
         </tr>
         <tr
@@ -661,6 +663,7 @@ exports[`test test show table 1`] = `
               }
             }>
             0
+            %
           </td>
         </tr>
         <tr
@@ -810,6 +813,7 @@ exports[`test test show table 1`] = `
               }
             }>
             0
+            %
           </td>
         </tr>
         <tr
@@ -959,6 +963,7 @@ exports[`test test show table 1`] = `
               }
             }>
             0
+            %
           </td>
         </tr>
         <tr
@@ -1108,6 +1113,7 @@ exports[`test test show table 1`] = `
               }
             }>
             0
+            %
           </td>
         </tr>
         <tr
@@ -1257,6 +1263,7 @@ exports[`test test show table 1`] = `
               }
             }>
             0
+            %
           </td>
         </tr>
         <tr
@@ -1406,6 +1413,7 @@ exports[`test test show table 1`] = `
               }
             }>
             0
+            %
           </td>
         </tr>
       </tbody>

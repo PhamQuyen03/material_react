@@ -74,7 +74,7 @@ class Loser extends React.Component {
                     <TableRowColumn style={ styles.container}>{item.price}</TableRowColumn>
                     <TableRowColumn style={ styles.container}>{item.values}</TableRowColumn>
                     <TableRowColumn style={ stylesPositive.container}>{item.change_value}</TableRowColumn>
-                    <TableRowColumn style={ stylesPositive.container}>{item.percent}</TableRowColumn>
+                    <TableRowColumn style={ stylesPositive.container}>{item.percent}%</TableRowColumn>
                 </TableRow>
             );
           } else{
@@ -85,7 +85,7 @@ class Loser extends React.Component {
                     <TableRowColumn style={ styles.container}>{item.price}</TableRowColumn>
                     <TableRowColumn style={ styles.container}>{item.values}</TableRowColumn>
                     <TableRowColumn style={ stylesNegative.container}>{item.change_value}</TableRowColumn>
-                    <TableRowColumn style={ stylesNegative.container}>{item.percent}</TableRowColumn>
+                    <TableRowColumn style={ stylesNegative.container}>{item.percent}%</TableRowColumn>
                 </TableRow>
             );
           };

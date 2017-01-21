@@ -18,9 +18,9 @@ ReactDOM.render(
 function tick() {
 	
   for (var i=0; i<data.length; i++) {
-    var change_value_percent = Math.floor(Math.random() * (50 - (-50) + 1) + (-50)) / 1000;
+    var change_value_percent = Math.floor(Math.random() * (50 - (-50) + 1) + (-50))/10;
     data[i].percent = change_value_percent;
-    data[i].change_value = parseFloat(data[i].price)*data[i].percent;
+    data[i].change_value = parseFloat(data[i].price)*(data[i].percent/100);
     data[i].change_value = data[i].change_value.toFixed(3);
     data[i].price = parseFloat(data[i].change_value)+ parseFloat(data[i].price);
     data[i].price = data[i].price.toFixed(2);
