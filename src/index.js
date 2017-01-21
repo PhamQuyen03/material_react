@@ -3,38 +3,36 @@ import ReactDOM from 'react-dom';
 import App from './App';
 
 const data = require('../src/data.json');
-var tempTopLoser = [];
-var tempTopGainers = [];
 
-function sorts(datas) {
-  datas.sort(function(a, b) {
-    return -parseFloat(a.price) + parseFloat(b.price);
-
+function sorts(dt) {
+  dt.sort(function(a, b) {
+    return -parseFloat(a.values) + parseFloat(b.values);
   });
-  return 1;
+  return dt;
 }
+var dt = sorts(data);
+ReactDOM.render(
+  <App arrayTopGainer={dt.slice(0, 5)} arrayTopLoser={dt.slice(3, 7)}/>,
+  document.getElementById('root')
+);
 function tick() {
-	for (var i=0; i<data.length; i++) {
-    var change_value = Math.floor(Math.random() * (50 - (-50) + 1) + (-50)) / 1000;
-    data[i].percent = change_value;
+	
+  for (var i=0; i<data.length; i++) {
+    var change_value_percent = Math.floor(Math.random() * (50 - (-50) + 1) + (-50)) / 1000;
+    data[i].percent = change_value_percent;
     data[i].change_value = parseFloat(data[i].price)*data[i].percent;
     data[i].change_value = data[i].change_value.toFixed(3);
     data[i].price = parseFloat(data[i].change_value)+ parseFloat(data[i].price);
-    data[i].price = data[i].price.toFixed(3);
+    data[i].price = data[i].price.toFixed(2);
     data[i].values = data[i].price * data[i].Volume;
     data[i].values = parseInt(data[i].values);
   }
   sorts(data);
-  for (var i=0; i<5; i++) {
-    tempTopGainers[i] = data[i];
-  }
-  for (var i=data.length - 1; i> data.length - 6; i--) {
-    tempTopLoser[i] = data[i];
-  }
+  
   ReactDOM.render(
-  <App arrayTopGainer={tempTopGainers} arrayTopLoser={tempTopLoser}/>,
+  <App arrayTopGainer={data.slice(0, 5)} arrayTopLoser={data.slice(data.length-5, data.length)}/>,
   document.getElementById('root')
 );
 }
-setInterval(tick, 1000);
+setInterval(tick, 4000);
 

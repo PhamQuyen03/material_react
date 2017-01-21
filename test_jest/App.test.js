@@ -7,6 +7,6 @@ test('test show table', () => {
   const component = renderer.create(
     <App arrayTopGainer={data} arrayTopLoser={data}></App>
   );
-  // let tree = component.toJSON();
-  // expect(tree).toMatchSnapshot();
+  let tree = component.toJSON();
+  expect(tree).toMatchSnapshot();
 });

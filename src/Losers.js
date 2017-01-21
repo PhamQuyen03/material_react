@@ -3,17 +3,6 @@ import {Table, TableBody, TableHeader, TableHeaderColumn, TableRow, TableRowColu
 import baseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 
-// const data = require('./data.json');
-// var tempsTopLoser = [];
-
-// data.sort(function(a, b) {
-//   return parseInt(a.values) - parseInt(b.values);
-
-// });
-// for (var i=0; i<5; i++) {
-//   tempsTopLoser[i] = data[i];
-// }
-
 const styles= {
   container: {
     color: "black",
