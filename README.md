@@ -1,11 +1,3 @@
-Nhung thu vien them vao trong project ngoai nhung thu vien co san
-- Thu vien material design
-
-    npm install material-ui
-    
-    npm install muicss
-- Test
-  npm i react-test-renderer
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
